@@ -1,0 +1,10 @@
+groups:
+    User:
+      permissions:
+      - add.something
+      default: true
+    Admin:
+      permissions:
+      - '*'
+      default: false
+users: {}
